@@ -1,0 +1,11 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+import { SecurityRoutingModule } from './security-routing.module';
+import { SecurityDashboardComponent } from './security-dashboard.component';
+
+@NgModule({
+  declarations: [SecurityDashboardComponent],
+  imports: [CommonModule, SecurityRoutingModule],
+})
+export class SecurityModule {}
