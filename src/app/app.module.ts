@@ -30,3 +30,15 @@ import { CommonModule } from '@angular/common';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+// export function generateJWToken(service: MenuService) {
+//   let loginInfo: any = {
+//     loginId: 'ApiLogin',
+//     password: 'abc@123',
+//   };
+//   return () => {
+//     return service.generateJWToken(loginInfo).subscribe((result) => {
+//       console.log('JWT_TOKEN_KEY', result.responseResult);
+//       sessionStorage.setItem('JWT_TOKEN_KEY', result.responseResult);
+//     });
+//   };
+// }
